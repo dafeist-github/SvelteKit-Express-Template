@@ -20,4 +20,6 @@ RUN npm prune --production
 
 ENV NODE_ENV=production
 
+WORKDIR /app
+
 CMD ["sh", "-c", "npm run start"]
