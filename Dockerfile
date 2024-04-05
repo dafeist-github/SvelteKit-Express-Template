@@ -19,7 +19,6 @@ RUN npm ci
 
 RUN npm run build
 RUN npm prune --production
-RUN npm install
 
 ENV NODE_ENV=production
 
