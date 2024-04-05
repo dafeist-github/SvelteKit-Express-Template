@@ -2,6 +2,7 @@ services:
   server:
     container_name: <APPNAME>-Server
     restart: unless-stopped
+    build: .
     environment:
       - EXAMPLE_KEY=EXAMPLE_VALUE
     ports:
