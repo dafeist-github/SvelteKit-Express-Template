@@ -1,0 +1,8 @@
+services:
+  server:
+    container_name: <APPNAME>-Server
+    restart: unless-stopped
+    environment:
+      - EXAMPLE_KEY=EXAMPLE_VALUE
+    ports:
+      - 3000:3000
