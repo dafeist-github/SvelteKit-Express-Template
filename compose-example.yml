@@ -1,6 +1,6 @@
 services:
   server:
-    container_name: <APPNAME>-Server
+    container_name: APPNAME-Server
     restart: unless-stopped
     build: .
     environment:
